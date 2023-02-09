@@ -87,6 +87,8 @@ Starting elasticsearch:
 
 $ systemctl start elasticsearch.service
 $ systemctl status elasticsearch.service
+	
+	
 Tips and tricks:
 Check to see it the “Begin Security Auto Configuration” is present
 This will be the last section in the  elasticsearch.yml file version 8.6+
@@ -94,6 +96,8 @@ Open and other terminal on the same node and run:
 $ tail -f /var/log/elasticsearch/my-application.log
 If you have errors:
 journalctl -ru elasticsearch.service -n 100
+
+
 Kibana on Cluster Node
 Important Links: 
 https://www.elastic.co/guide/en/kibana/7.17/rpm.html 	
